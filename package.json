@@ -1,0 +1,23 @@
+{
+  "name": "baekjoon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mj-song00/BAEKJOON.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mj-song00/BAEKJOON/issues"
+  },
+  "homepage": "https://github.com/mj-song00/BAEKJOON#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
