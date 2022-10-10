@@ -4,7 +4,6 @@ const [M, ...S] = require("fs")
   .split("\n");
 
 let answer = [];
-let obj = {};
 const s = [...S];
 
 for (let i = 0; i <= M; i++) {
@@ -27,13 +26,34 @@ for (let i = 0; i <= M; i++) {
       break;
     case "toggle":
       if (answer.includes(nums)) {
-        answer.pop(nums);
+        answer.filter((e) => e !== 3);
       } else {
         answer.push(nums);
       }
       break;
     case "all":
-      const obj = Object.assign({}, answer);
+      answer = [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+      ];
       break;
   }
 }
